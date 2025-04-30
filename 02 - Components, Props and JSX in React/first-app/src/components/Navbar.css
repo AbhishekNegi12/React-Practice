@@ -1,0 +1,16 @@
+/* body{
+    background-color: rebeccapurple;
+} */
+nav,ul{
+    display: flex;
+}
+ul{
+    gap: 20px;
+}
+li{
+    list-style-type: none;
+}
+nav{
+    background-color: beige;
+    padding: 20px;
+}
