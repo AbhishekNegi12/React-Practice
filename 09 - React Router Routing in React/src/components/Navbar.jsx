@@ -7,8 +7,7 @@ const Navbar = () => {
       <nav>
         <NavLink className={(e) => {return e.isActive ? "red" : ""}} to="/home"><li>Home</li></NavLink>
         <NavLink className={(e) => {return e.isActive ? "red" : ""}} to="/about"><li>About</li></NavLink>
-        <NavLink className={(e) => {return e.isActive ? "red" : ""}} to="/login"><li>Login</li></NavLink>
-       
+        <NavLink className={(e) => {return e.isActive ? "red" : ""}} to="/login"><li>Login</li></NavLink>       
       </nav>
     </div>
   )
